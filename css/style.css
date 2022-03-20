@@ -1,0 +1,35 @@
+@font-face {
+    font-family: optimus;
+    src: url(../font/OptimusPrincepsSemiBold.ttf);
+}
+
+.headings{
+    font-family: optimus;
+}
+body{
+    background-color: #212529;
+}
+main{
+    margin-top: 12rem;
+}
+hr{
+    margin-top: 8rem;
+}
+
+.btn{
+    background-color: #e08736;
+    border: 2px solid #e08736;
+    color: white;
+}
+.btnoutline{
+    border: 2px solid #e08736;
+    background-color: #212529;
+    color: #e08736;
+    font-size: -2px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #c4692d;
+    border: 2px solid #c4692d;
+    color: white;
+  }
