@@ -2,6 +2,14 @@
     font-family: optimus;
     src: url(../font/OptimusPrincepsSemiBold.ttf);
 }
+@font-face {
+    font-family: alagard;
+    src: url(../font/alagard.ttf);
+}
+@font-face {
+    font-family: minecraft;
+    src: url(../font/Minecraft.ttf);
+}
 
 .headings{
     font-family: optimus;
@@ -39,32 +47,8 @@ hr{
     min-width: 100%
 }
 
-
-.card {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    -ms-box-shadow: none
-}
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid;
-    border-radius: 0;
-}
-
-.card .card-block {
-    padding: 1.25rem
-}
-
-h6 {
-    font-size: 25px !important
+h4 {
+    font-family: alagard;
 }
 
 .text-c-purple {
